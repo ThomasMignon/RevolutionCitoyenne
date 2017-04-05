@@ -1,0 +1,381 @@
+/*** Base Section ***/
+.section .container
+{
+    height : 80vh;
+    margin-top: 10vh !important;
+}
+
+
+
+.contenuSection
+{
+    height: 70vh;
+}
+
+.interview
+{
+    height: 90vh !important;
+    padding-top: 15vh !important;
+}
+/*** Logo ***/
+.logoimage
+{
+    z-index:80;
+    position: absolute;
+    margin-left: -100px;
+    width: 100%;
+}
+
+/*** Video ***/
+.video
+{
+    width:100%;
+    height: 50vh;
+    
+}
+
+/**** Menu Footer ****/
+footer{
+    position:fixed;
+    height: 70px;
+    display:block;
+    width: 100%;
+    background: transparent;
+    z-index:99;
+    text-align:center;
+    color: #000;
+}
+
+footer ul li
+{
+    margin-top: 5px;
+    transition: 0.6s;
+    position: fixed;
+}
+footer ul li:hover
+{
+    margin-top: -20px;
+    transition: 0.6s;
+}
+footer ul li .fblg{color: #3B5998;} /** couleur Facebook **/
+footer ul li .twlg{color: #3cf;} /** couleur Twitter **/
+footer ul li .linlg{color: #0077b5;} /** couleur Linkedin **/
+
+/**** Fin Menu footer ****/
+
+/**** Section 5 ****/
+.formulaire
+{
+    border: 5px solid black !important;
+}
+
+
+/**** Fin Section 5****/
+
+/*** Iframe youtube ***/
+.videoPresentation{
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+}
+/**** Section 1 ****/
+#section1 .btn1
+{
+    margin-top:0% !important;
+}
+
+
+#section1 .test{margin-top: 10vh;}
+/**** Section Interivew ****/
+.h50vh
+{
+    height: 50vh !important;
+    margin: auto;
+}
+
+.intPres
+{
+    border: 1px solid black;
+}
+.titreInt
+{
+    border: 1px solid black;
+    height: 45vh;
+}
+
+/**** Bouton hexagonale ****/
+
+/** Fin Bouton **/
+
+.section
+{
+    height: 100vh;
+    margin:0% !important;
+}
+/** Menu Top **/
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+#menu li{
+    text-decoration: none;
+    text-align: center;
+    color:black !important;
+    font-family: "Calibri", Serif !important;
+     padding-top: 5px;
+    padding-bottom: auto;
+}
+
+#menu .active
+{
+    text-decoration : underline;
+    font-size:150%;
+    padding-top: 0px !important;
+} 
+#menu li a:hover
+{
+    text-decoration : underline !important;
+    font-size:150% !important;
+    padding-top: 5px !important;
+}
+#menu .active a:hover
+{
+    font-size: 100% !important; 
+    /** annulation pour l'active de l'hover pour éviter size up de 200% **/
+    padding-top: 10px !important;
+}
+/*** Fin menu Top ***/
+
+/** Section Contact **/
+
+textarea{ resize:none;}
+
+/** Fin Contact **/
+
+
+.center-block
+{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.nav > li > a
+{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.slide h1
+{
+    color: #3b5998;
+}
+
+.contactus
+{
+    text-align: center;
+}
+
+
+/** Bouton Hexa **/
+.info
+{
+    height:50vh;
+}
+.infop
+{
+    border:10px solid white;
+    color:white;
+    height:50vh;
+    background-color: whitesmoke;
+}
+
+.infop img
+{
+    width: 80%;
+    height: 80%;
+    margin-left:4%; 
+}
+.infop h3
+{
+    text-align: center;
+    color:;
+}
+
+#section4 div
+{
+    padding-bottom: 0px !important;
+    
+}
+
+/*** Interview CSS Style ***/
+#section2 blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    border-radius: 17px;
+    background-color: #4ADFCC;
+    margin-top: 20px;
+    font-size:15px;
+    color:white;
+    height: 300px;
+
+    -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+    
+}
+
+.quotation-mark{
+    font-wei3ght: bold;
+    font-size:35px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+/** Social Button **/
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/** Article **/
+
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+body
+{
+    padding-top: 30px;
+}
+
+h1
+{
+font-family: 'News Cycle', sans-serif;
+}
+article
+{
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    padding: 1%;
+    border: 2px solid #202d4e;
+    border-radius: 10%;
+}
+.article-caption
+{
+position: absolute;
+bottom: 16px;
+max-width: 90%;
+text-align: center;
+background-color: rgba(200,200,200,0.5);
+
+}
+
+.article-img
+{
+width: 100%; 
+max-height: 400px;
+object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) { 
+.article-title
+{
+font-size: 28px;
+}
+}
+
+@media screen and (max-width: 500px) { 
+.article-title
+{
+font-size: 20px;
+}
+}
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+    background-color:#33ccff;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
